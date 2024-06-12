@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://four177-group-20-project.onrender.com/sitemap.xml

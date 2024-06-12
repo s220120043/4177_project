@@ -1,0 +1,83 @@
+.book-details {
+    margin-top: 50px;
+    width: 60vw;
+    margin-left: 20vw;
+  }
+  
+  .book-details h1 {
+    margin-bottom: 20px;
+  }
+  .book-details h3 {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: solid 2px lightgrey;
+    padding-bottom: 10px;
+  }
+  .book-details h5 span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .book-details img {
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .book-details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .book-details textarea {
+    width: 50vw;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .book-details button {
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-details button:hover {
+    background-color: #005f79;
+  }
+  
+  .book-details ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  .book-details li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+  
+  .book-details li p:first-child {
+    color: #008CBA;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .book-details li span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .border-review{
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+  }

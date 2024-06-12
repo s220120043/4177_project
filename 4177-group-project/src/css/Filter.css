@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+}
+dl,dd{
+    margin: 0;
+}
+main{
+    width: 80vw;
+    margin-left: 10%;
+}
+#box{
+    width: 55vw;
+    border: solid 2px black;
+    margin: 5vh auto;
+    padding-top: 20px;
+}
+#box dl{
+    height: 5vh;
+    line-height: 5vh;
+    margin: 0 2vh;
+}
+#box dt{
+    float: left;
+}
+#box dd{
+    float: left;
+    cursor: pointer;
+    margin: 0 1vh;
+}
+#box dd.active{
+    color:red;
+}
+#box dl.select{
+    border-top:1px solid black ;
+    margin: 0;
+    padding: 0 20px;
+}
+#box dl.select dd{
+    border: 1px solid black;
+    line-height: 25px;
+    margin-top: 13px;
+    padding: 0 2px 0 10px;
+    cursor: auto;
+}
+#box dl.select dd span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.list{
+    padding-left: 10vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+.book{
+    margin: 3vh;
+    width: 18%;
+    height: 25vh;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.title{
+    margin-top: 4vh;
+    height: 60vh;
+}
+.intro > p{
+    width: 50vw;
+    font-size: larger;
+    line-height: 200%;
+}
+.intro{
+    margin-top: 4vh;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    border: solid 2px black;
+    width: 20vw;
+    height: 45vh;
+    margin-right: 5vh;
+}
+.img{
+    line-height: 50vh;
+    text-align: center;
+}
+.book-bt{
+    margin-top: 1vw;
+    margin-right: 1vw;
+    width: 90px;
+    height: 5vh;
+}
+.review-word{
+    margin-top: 4vh;
+    border: solid 2px black;
+    font-size: larger;
+    line-height: 200%;
+    padding: 1vh;
+}
+.book-list{
+    margin-top: 4vh;
+}
+.list{
+    font-size: x-large;
+    padding-bottom: 5vh;
+    
+}
+
+@media screen and (max-width: 990px) {
+    dd{
+        font-size: small;
+    }
+    dt{
+        font-size: small;
+    }
+    .intro > p{
+        font-size: medium;
+        line-height: 100%;
+    }
+    p{
+        font-size: medium;
+        line-height: 100%;
+    }
+    h1{
+        font-size: medium;
+    }
+    h2{
+        font-size: small;
+    }
+    .list{
+        font-size: medium;
+        
+    }
+}
